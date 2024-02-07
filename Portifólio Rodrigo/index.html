@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rodrigo Bueno</title>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="meu-elemento">
+        <img class="fundo" src="planodefundo.jpg" alt="fundo">
+        </div>
+        <header>
+            <h1>Rodrigo Bueno</h1>
+                  <div class="menu">
+                    <nav class="menu-list">
+                       <a href="#sobre" onclick="scrollToPercentage(0);" style="color:rgb(255, 255, 255); text-decoration: none;"><b>home</b></a>
+                       <a href="#curso" onclick="scrollToPercentage(28);" style="color:rgb(255, 255, 255); text-decoration: none;"><b>cursos</b></a>
+                       <a href="#disciplina" onclick="scrollToPercentage(60);" style="color:rgb(255, 255, 255); text-decoration: none;"><b>disciplinas</b></a>
+                       <a href="#contato" onclick="scrollToPercentage(101);" style="color:rgb(255, 255, 255); text-decoration: none;"><b>contato</b></a>
+                    </nav>
+        </header>
+        <div class="retangulo"></div>
+        <h3 class="cursos"><p>Cursos</p></h3>
+        <div class="retangulo1"></div>
+        <img class="informatica" src="OIP.jpg" alt="informatica">
+        <h5 class="informatica1"><p>Tenho o curso completo de Informática Essencial, que realizei durante os anos de 2018 a 2020, cursando módulos como Excel, Word, PowerPoint, Internet Explorer, entre outros.</p></h5>
+            <div class="retangulo2"></div>
+            <img class="prefeitura" src="prefeitura.jpg" alt="prefeitura">
+            <h5 class="prefeitura1"><p>Atualmente estou realizando um curso de informática educativa disponibilizado pela Prefeitura de Saquarema.</p></h5>
+            <div class="retangulo3"></div>
+            <img class="universidade" src="univeridade.jpg" alt="universidade">
+            <h5 class="universidade1"><p>Atualmente estou cursando Engenharia de Software pela Universidade de Vassouras 2° Periodo.</p></h5>
+            <div class="retangulo4"></div>
+            <h3 class="Algoritmos"><p>Algoritmos</p></h3>
+            <div class="retangulo5"></div>
+            <h3 class="Sistemas"><p>Engenharia de Requisitos<br> e Análise de Sistemas</p></h3>
+            <div class="retangulo6"></div>
+            <h3 class="Etica"><p>Ética, Cidadania<br> e Sociedade</p></h3>
+            <div class="retangulo7"></div>
+            <h3 class="Gestao"><p>Gestão Empresárial</p></h3>
+            <div class="retangulo8"></div>
+            <h3 class="Web"><p>Laboratório de<br> Programação<br> de Web Sites</p></h3>
+            <div class="retangulo9"></div>
+            <h3 class="Textual"><p>Prática de Leitura<br></be> e Produção Textual</p></h3>
+            <div class="retangulo10"></div>
+            <h3 class="Extensionistas"><p>Práticas Extensionistas<br> Integradoras II</p></h3>
+            <div class="retangulo11"></div>
+            <h3 class="Materias"><p>Disciplinas</p></h3>
+        <section id="about">
+            <div id="bio">
+                <p>
+                    <h2>Olá, meu nome é Rodrigo!</h2>
+                    Eu sou Rodrigo, tenho 21 anos, moro em Saquarema desde que eu nasci. Sou apaixonado por carros desde de criança, sempre via as corridas de formula 1 e stock car com o meu pai, gosto de video games e principalmente jogos de corrida ou que envolvem carros. Desde pequeno sempre gostei de celulares e computadores e como eles funcionam. Moro em Rio da Areia e sempre sou chamado para consertar smartphones e computadores quando há algum problema por aqui. Recentemente, eu e meu amigo decidimos tentar montar um servidor de GTA 5 para poder nos divertir com nossos amigos, mas não conseguimos ajustar alguns códigos e acabamos corrompendo o banco de dados MySQL. Desde então, me interessei mais a fundo por essa área e escolhi a Engenharia de Software como curso superior.
+                </p>
+            </div>
+            <img src="profile-pic.jpg" alt="">
+        </section>
+        <section id="cursos">
+            
+        </section>
+        <section id="disciplinas">
+
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            <form>
+                <input type="text" placeholder="Digite seu nome" />
+                <input type="email" placeholder="Digite seu e-mail" />
+                <label for="cidades">Selecione sua cidade:</label>
+                <select id="cidades">
+                    <option value="">Selecione...</option>
+                    <option value="Sao Paulo">São Paulo</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Salvador">Salvador</option>
+                    <option value="Fortaleza">Fortaleza</option>
+                    <option value="Belo Horizonte">Belo Horizonte</option>
+                    <option value="Brasilia">Brasília</option>
+                    <option value="Curitiba">Curitiba</option>
+                    <option value="Manaus">Manaus</option>
+                </select>
+                <textarea cols="38" rows="10" placeholder="Digite a sua mensagem:"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <script src="javascript.js"></script>
+    </body>
+</html>
